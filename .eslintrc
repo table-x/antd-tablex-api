@@ -1,0 +1,17 @@
+{
+  "extends": "eslint-config-egg",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "script"
+  },
+  "rules": {
+    "comma-dangle": [
+      1,
+      "never"
+    ],
+    "spaced-comment": [
+      0,
+      "always"
+    ]
+  }
+}

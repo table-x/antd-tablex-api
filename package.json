@@ -1,0 +1,47 @@
+{
+  "name": "antd-tablex-api",
+  "version": "0.9.0",
+  "description": "tablex api",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzonghao/antd-tablex-api.git"
+  },
+  "keywords": [
+    "tablex",
+    "api",
+    "backend"
+  ],
+  "author": "archer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzonghao/antd-tablex-api/issues"
+  },
+  "homepage": "https://github.com/mzonghao/antd-tablex-api#readme",
+  "scripts": {
+    "dev": "egg-bin dev --port 17200",
+    "start": "egg-scripts start --daemon --title=antd-tablex-api",
+    "stop": "egg-scripts stop --title=antd-tablex-api",
+    "lint": "eslint .",
+    "migrate:new": "egg-sequelize migration:create",
+    "migrate:up": "egg-sequelize db:migrate",
+    "migrate:down": "egg-sequelize db:migrate:undo"
+  },
+  "dependencies": {
+    "egg": "^2.12.0",
+    "egg-cors": "^2.1.1",
+    "egg-scripts": "^2.10.0",
+    "egg-sequelize": "^4.1.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "mysql2": "^1.6.1",
+    "qs": "^6.5.2"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.9.0",
+    "eslint": "^4.19.1",
+    "eslint-config-egg": "^7.0.0"
+  }
+}
