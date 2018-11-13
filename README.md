@@ -1,13 +1,15 @@
 # antd-tablex-api
+#### backend example of antd-tablex, based in eggjs
+[简体中文](./README.zhCN.md)
 
-## 目录
-- [启动配置](#启动配置)
-- [开发启动](#开发启动)
-- [生产启动](#生产启动)
+## List
+- [configs](#configs)
+- [development start](#development-start)
+- [deploy start](#deploy-start)
 ***
-## 内容
-### 启动配置
-在 config 中新建 config.sequelize.js 并配置如下
+## Content
+### configs
+create new file config.sequelize.js in dir config.
 ```
 module.exports = {
     dialect: 'mysql',
@@ -19,12 +21,12 @@ module.exports = {
 };
 ```
 
-### 开发启动
+### development-start
 ```
 npm run dev
 ```
 
-### 生产启动
+### deploy-start
 ```
 npm start
 ```
