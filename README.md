@@ -11,7 +11,7 @@
 
 ## Contents
 - [conf](#conf)
-- [development start](#development-start)
+- [develop start](#develop-start)
 - [deploy start](#deploy-start)
 - [deploy stop](#deploy-stop)
 ***
@@ -28,7 +28,7 @@ module.exports = {
 };
 ```
 
-### development-start
+### develop-start
 ```
 npm run dev
 ```
