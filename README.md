@@ -1,9 +1,9 @@
 # <p align="center">Antd-tablex-api</p>
 #### <p align="center">backend example of antd-tablex, [eggjs](https://github.com/eggjs/egg)-based</p>
-#### <p align="center">[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url]
 ![][david-url]
 ![][dt-url]
-![][license-url]</p>
+![][license-url]
 
 [English](./README.md) | [简体中文](./docs/README.zhCN.md)
 
