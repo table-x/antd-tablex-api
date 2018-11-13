@@ -3,14 +3,13 @@
 
 [English](./README.md) | [简体中文](./docs/README.zhCN.md)
 
-## List
-- [configs](#configs)
+## Contents
+- [conf](#conf)
 - [development start](#development-start)
 - [deploy start](#deploy-start)
 - [deploy stop](#deploy-stop)
 ***
-## Content
-### configs
+### conf
 create new file config.sequelize.js in dir config.
 ```
 module.exports = {
