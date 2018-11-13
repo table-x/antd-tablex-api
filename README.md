@@ -1,11 +1,13 @@
-# antd-tablex-api
-#### backend example of antd-tablex, based in eggjs
-[简体中文](./README.zhCN.md)
+# <p align="center">Antd-tablex-api</p>
+#### <p align="center">backend example of antd-tablex, [eggjs](https://github.com/eggjs/egg)-based</p>
+
+[English](./README.md) | [简体中文](./docs/README.zhCN.md)
 
 ## List
 - [configs](#configs)
 - [development start](#development-start)
 - [deploy start](#deploy-start)
+- [deploy stop](#deploy-stop)
 ***
 ## Content
 ### configs
@@ -29,4 +31,9 @@ npm run dev
 ### deploy-start
 ```
 npm start
+```
+
+### deploy-stop
+```
+npm run stop
 ```
