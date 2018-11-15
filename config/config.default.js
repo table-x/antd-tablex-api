@@ -16,7 +16,7 @@ module.exports = appInfo => {
     },
     domainWhiteList: [
       'http://localhost:17100',
-      'http://localhost:17110',
+      'http://localhost:18110',
       'https://www.tablex.top',
       'https://vue-ssr.emiya.top'
     ]
