@@ -18,7 +18,7 @@ module.exports = appInfo => {
       'http://localhost:17100',
       'http://localhost:18110',
       'https://www.tablex.top',
-      'https://vue-ssr.emiya.top'
+      'https://vue-ssr.tablex.top'
     ]
   };
 
